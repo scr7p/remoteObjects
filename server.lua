@@ -4,7 +4,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 --// Variables //--
 local remote = ReplicatedStorage.RemoteFunction
 
---// Connections //--
+--// Functions //--
 remote.OnServerInvoke = function(player, argument)
   if argument > 1 then return false end
 
